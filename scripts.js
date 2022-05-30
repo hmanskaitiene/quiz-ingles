@@ -46,7 +46,7 @@ document.getElementById('btnSiguiente').addEventListener('click', function (e) {
 })
 
 //Función que se encarga de validar la respuesta seleccionada
-const validarPaso = (numero, valorSeleccionado) => {
+const validarPaso = (numero) => {
   
   paso = pasos[numero];
   let opcion_elegida = document.querySelector(`input[name="pasoRadio${numero}"]:checked`);
